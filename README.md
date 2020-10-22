@@ -11,4 +11,7 @@ $ vue create simple-vue-list
 
 $ cd simple-vue-list
 $ npm install vue-router
+
+# サーバー起動
+$ npm run serve
 ```
