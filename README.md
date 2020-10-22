@@ -1,24 +1,14 @@
 # simple-vue-list
 
-## Project setup
+# command
 ```
-npm install
-```
+# vue インストール
+$ npm install vue
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+# アプリ作成
+$ vue create simple-vue-list
+❯ Default ([Vue 2] babel, eslint)
 
-### Compiles and minifies for production
+$ cd simple-vue-list
+$ npm install vue-router
 ```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
