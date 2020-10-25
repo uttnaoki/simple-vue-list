@@ -16,7 +16,22 @@
 </template>
 
 <script>
+import firebase from "firebase/app";
+import "firebase/auth";
+import "firebase/firestore";
+import "firebase/analytics";
+
 export default {
+  created() {
+    firebase
+      .firestore()
+      .collection(`users`)
+      .get()
+      .then((snapshot) => {
+        console.log(snapshot);
+        snapshot.forEach((doc) => console.log(doc));
+      });
+  },
   data() {
     return {
       headers: [
