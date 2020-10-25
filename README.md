@@ -3,6 +3,7 @@
 # command
 
 ## vue
+
 ```
 # vue インストール
 $ npm install vue
@@ -22,6 +23,7 @@ $ npm run serve
 ```
 
 ## firebase
+
 ```
 $ npm install -g firebase-tools
 $ firebase login
@@ -48,4 +50,12 @@ $ npm run build
 
 $ firebase deploy
 ```
+
 - `https://<プロジェクト名>.web.app/`にアクセスします
+
+## firebase get
+
+```
+$ npm install --save firebase
+$ npm run serve
+```
